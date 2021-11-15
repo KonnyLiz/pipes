@@ -38,4 +38,6 @@ export class AppComponent {
   idioma: string = 'es';
 
   raro: string = 'konnY aMayA BarreRA';
+
+  video: string = 'https://www.youtube.com/embed/SASzfJ-E05I';
 }
