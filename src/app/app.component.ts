@@ -36,4 +36,6 @@ export class AppComponent {
   fecha: Date = new Date();
 
   idioma: string = 'es';
+
+  raro: string = 'konnY aMayA BarreRA';
 }
