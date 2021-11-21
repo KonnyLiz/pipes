@@ -136,6 +136,17 @@
                     </td>
                     <td>{{ fecha | date: 'dd/MMMM/Y ':' ': idioma }}</td>
                 </tr>
+                <!-- tarea -->
+                <tr>
+                    <td>{{ nombre }}</td>
+                    <td> contrasena:{{ activar }}
+                        <br>
+                        <button (click)="activar = !activar" type="button " class="btn btn-outline-primary "> 
+                          activar/desactivar
+                        </button>
+                    </td>
+                    <td>{{ nombre | ocultar: activar }}</td>
+                </tr>
             </tbody>
         </table>
     </div>
@@ -166,7 +177,7 @@
         <h3>Domseguro</h3>
         <div class="row ">
             <div class="col ">
-                <iframe width="560" height="315" [src]="video | domSeguro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560 " height="315 " [src]="video | domSeguro " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
             </div>
         </div>
     </div>

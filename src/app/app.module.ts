@@ -12,6 +12,7 @@ import localFr from '@angular/common/locales/fr';
 import { AppComponent } from './app.component';
 import { CapitalizadoPipe } from './pipes/capitalizado.pipe';
 import { DomSeguroPipe } from './pipes/dom-seguro.pipe';
+import { OcultarPipe } from './pipes/ocultar.pipe';
 
 // configurando la region
 registerLocaleData(localEs);
@@ -21,7 +22,8 @@ registerLocaleData(localFr);
   declarations: [
     AppComponent,
     CapitalizadoPipe,
-    DomSeguroPipe
+    DomSeguroPipe,
+    OcultarPipe
   ],
   imports: [
     BrowserModule

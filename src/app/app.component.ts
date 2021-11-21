@@ -40,4 +40,6 @@ export class AppComponent {
   raro: string = 'konnY aMayA BarreRA';
 
   video: string = 'https://www.youtube.com/embed/SASzfJ-E05I';
+
+  activar: boolean = true;
 }
